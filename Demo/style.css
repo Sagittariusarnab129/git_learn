@@ -5,7 +5,17 @@ html {
 }
 
 h1 {
-    display:inline-block;
+    display:flex;
+    justify-content: center;
     color:White;
     background-color: green;
+}
+
+p {
+    letter-spacing :1px;
+    line-height: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+    text-transform: uppercase;
+    color:goldenrod;
 }
